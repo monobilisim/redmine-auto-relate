@@ -7,6 +7,7 @@ Redmine::Plugin.register :redmine_auto_relate do
   author      'Ali Erdem Cerrah'
   description 'When a job number appears in a job description or note in the format #NNN, it automatically adds that job to the “related jobs” list for the current job.'
   version     '0.1.0'
+  url         'https://github.com/monobilisim/redmine-auto-relate'
   requires_redmine version_or_higher: '5.0.0'
 
   settings(
