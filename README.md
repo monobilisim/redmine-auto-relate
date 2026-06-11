@@ -1,7 +1,23 @@
-# Redmine Auto Relate
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![GPL License][license-shield]][license-url]
+
+[![Readme in English](https://img.shields.io/badge/Readme-English-blue)](README.md)
+
+<a href="https://mono.net.tr/">
+  <img src="https://r2.mono.tr/logo/Mono-Logo.svg" width="340"/>
+</a>
+
+<h2>Redmine Auto Relate</h2>
 
 A Redmine plugin that automatically links issues together when you mention them
 with `#NNN` in an issue description or a note.
+
+</div>
 
 When you write something like *"see also #123"* in a note or description,
 issue **#123** is automatically added to the current issue's **Related issues**
@@ -120,3 +136,14 @@ for the full text.
 ## Author
 
 Ali Erdem Cerrah — [Mono Bilişim](https://github.com/monobilisim)
+
+[contributors-shield]: https://img.shields.io/github/contributors/monobilisim/redmine-auto-relate.svg?style=for-the-badge
+[contributors-url]: https://github.com/monobilisim/redmine-auto-relate/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/monobilisim/redmine-auto-relate.svg?style=for-the-badge
+[forks-url]: https://github.com/monobilisim/redmine-auto-relate/network/members
+[stars-shield]: https://img.shields.io/github/stars/monobilisim/redmine-auto-relate.svg?style=for-the-badge
+[stars-url]: https://github.com/monobilisim/redmine-auto-relate/stargazers
+[issues-shield]: https://img.shields.io/github/issues/monobilisim/redmine-auto-relate.svg?style=for-the-badge
+[issues-url]: https://github.com/monobilisim/redmine-auto-relate/issues
+[license-shield]: https://img.shields.io/github/license/monobilisim/redmine-auto-relate.svg?style=for-the-badge
+[license-url]: https://github.com/monobilisim/redmine-auto-relate/blob/main/LICENSE
