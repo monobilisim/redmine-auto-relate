@@ -1,0 +1,4 @@
+tr:
+  label_auto_relate_relation_type: "İlişki tipi"
+  label_auto_relate_scan_description: "Açıklamayı tara"
+  label_auto_relate_scan_notes: "Notları tara"

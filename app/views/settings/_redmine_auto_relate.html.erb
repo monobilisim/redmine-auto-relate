@@ -1,0 +1,20 @@
+<p>
+  <label><%= l(:label_auto_relate_relation_type) %></label>
+  <%= select_tag('settings[relation_type]',
+                 options_for_select(
+                   IssueRelation::TYPES.keys.map { |t| [l("label_#{IssueRelation::TYPES[t][:name].to_s.sub('label_', '')}", default: t), t] },
+                   @settings['relation_type']
+                 )) %>
+</p>
+
+<p>
+  <label><%= l(:label_auto_relate_scan_description) %></label>
+  <%= hidden_field_tag 'settings[scan_description]', '0' %>
+  <%= check_box_tag 'settings[scan_description]', '1', @settings['scan_description'].to_s == '1' %>
+</p>
+
+<p>
+  <label><%= l(:label_auto_relate_scan_notes) %></label>
+  <%= hidden_field_tag 'settings[scan_notes]', '0' %>
+  <%= check_box_tag 'settings[scan_notes]', '1', @settings['scan_notes'].to_s == '1' %>
+</p>

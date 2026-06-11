@@ -1,0 +1,11 @@
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+log/*.log
+tmp/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
